@@ -1,0 +1,13 @@
+@import url(/css/global.css);
+
+
+.wishlist > .auth-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    gap: 2rem;
+  }
+  
+  .wishlist .card-badge-right{
+    color: red;
+ 
+  }
