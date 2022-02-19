@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../auth.css">
+    <title>Login | CalmKart</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation-bar">
+
+            <div class="nav-section">
+
+                <div class="nav-logo nav-section-items">
+                    <a class="navigation-logo"><img src="/assets/calmkart_logo.webp" alt="calmkart logo" /></a>
+                </div>
+
+            </div>
+
+            <div class="nav-section">
+                <label class="search-bar nav-item-width50">
+                    <span class="search-btn" type="submit"><i class="fa fa-search"> </i></span>
+                    <input class="search-input" type="text" placeholder="Search for more" name="search">
+                </label>
+                <ul class="nav-icons list-style-none nav-item-width50">
+                    <li class="list-inline-item">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="nav-icon">
+                                <i class="fas fa-user"></i>
+                            </span>
+                            <span class="nav-icon-text">
+                                Profile
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="nav-icon">
+                                <i class="fas fa-heart"></i>
+                            </span>
+                            <span class="nav-icon-text">
+                                Wishlist
+                            </span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="nav-icon-link link-no-style">
+                            <span class="nav-icon">
+                                <i class="fas fa-shopping-cart"></i>
+                            </span>
+                            <span class="nav-icon-text">
+                                Cart
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="auth">
+        <div class="auth-container mt-0">
+            <div class="auth-content mx-auto p-10">
+                <h3 class="text-center mt-0">Login</h3>
+                <label class="label-text" for="email">Email address</label>
+                <input class="input-auth w-100 mb-6" type="email" id="email" placeholder="raj@gmail.com" />
+                <label class="label-text" for="Password">Password</label>
+                <input class="input-auth w-100 mb-6" type="Password" id="Password" placeholder="****************" />
+
+                <div class="checkbox-input">
+                    <input type="checkbox" id="remember-me" />
+                    <label for="remember-me" class="ml-2">
+                        Remember me
+                    </label>
+                    <a href="#" class="ml-auto">Forgot your Password?</a>
+                </div>
+                <div class="my-6">
+                    <button class="btn btn-solid-primary w-100 mx-0">
+                        Login</button>
+                </div>
+                <p class="text-center">
+                    <a href="../signup/signup.html">
+                        Create New Account
+                        <i class="fa-solid fa-greater-than"></i>
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

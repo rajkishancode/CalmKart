@@ -1,0 +1,35 @@
+@import url(/css/global.css);
+/* @import url(http://127.0.0.1:5500/css/main.css); */
+
+
+.auth-content {
+    max-width: 40rem;
+    background: var(--auth-background);
+    border-radius: 10px;
+}
+
+.checkbox-input {
+    display: flex;
+    align-items: baseline;
+}
+
+.input-checkbox a {
+    text-decoration: underline;
+}
+
+.label-text {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1.6rem;
+}
+
+.input-auth {
+    max-width: 100%;
+    background-color: inherit;
+    border: 2px solid var(--grey);
+    border-radius: 5px;
+    display: block;
+    padding: 0.75rem 1rem;
+    padding: 1.2rem 1.6rem;
+}
