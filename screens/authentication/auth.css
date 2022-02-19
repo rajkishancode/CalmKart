@@ -20,8 +20,7 @@
 .label-text {
     font-size: 1.6rem;
     line-height: 2.4rem;
-    margin-top: 0.8rem;
-    margin-bottom: 1.6rem;
+    margin: 0.8rem 0 1.6rem 0;
 }
 
 .input-auth {
@@ -30,6 +29,5 @@
     border: 2px solid var(--grey);
     border-radius: 5px;
     display: block;
-    padding: 0.75rem 1rem;
     padding: 1.2rem 1.6rem;
 }
