@@ -1,1 +1,74 @@
 @import url(/css/global.css);
+
+
+.hero {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-image {
+    max-width: none;
+    flex-grow: 1;
+  }
+  
+  
+  .section-categories > .auth-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+    margin: 6.5rem 3rem 6.5rem 3rem;
+  }
+  
+  .category {
+    position: relative;
+    width: 21.6rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .category-image {
+    width: 100%;
+  }
+  
+  .category-text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    line-height: 2.5rem;
+    background-color: var(--white);
+  }
+  
+  
+  .section-new-arrivals > .auth-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    justify-items: center;
+    gap: 2.4rem;
+  }
+  
+  .section-new-arrivals .card {
+    cursor: pointer;
+    width: auto;
+  }
+  
+  .section-new-arrivals .card-image {
+    max-width: 20rem;
+  }
+  
+  .section-new-arrivals .card-content {
+    margin: 0 0 0 2rem;
+  }
+  
+  .h3 {
+      font-size: 2.4rem;
+      line-height: 3.2rem;
+      margin-top: 2.4rem;
+      margin-bottom: 1.6rem;
+  }
