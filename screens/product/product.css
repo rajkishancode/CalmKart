@@ -7,9 +7,7 @@ body {
     "header  header "
     "filters products";
   grid-template-columns: 28.8rem 1fr;
-
 }
-
 
 .filters {
   grid-area: filters;
@@ -22,14 +20,7 @@ body {
 }
 
 .filter-header {
-  display: flex;
-  justify-content: space-between;
   align-items: baseline;
-}
-
-.price-range {
-  display: flex;
-  justify-content: space-between;
 }
 
 .products {
