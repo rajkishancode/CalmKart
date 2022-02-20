@@ -1,0 +1,53 @@
+@import url(/css/global.css);
+
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header  header "
+    "filters products";
+  grid-template-columns: 28.8rem 1fr;
+
+}
+
+
+.filters {
+  grid-area: filters;
+  background-color: var(--auth-background);
+  position: sticky;
+  top: 8.8rem;
+  bottom: 0;
+  height: calc(100vh - 8.8rem);
+  overflow-y: auto;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.price-range {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products {
+  grid-area: products;
+  min-width: 0;
+}
+
+.products>.auth-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19.2rem, 1fr));
+  gap: 3.2rem;
+}
+
+.products .card-image {
+  width: 100%;
+}
+
+.products .card-badge-right {
+  color: red;
+
+}
