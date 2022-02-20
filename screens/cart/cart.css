@@ -1,0 +1,42 @@
+@import url(/css/global.css);
+
+
+.btn {
+    width: 100%;
+    padding: 1.5rem 0;
+    margin: 1rem 0;
+}
+
+.cart .card-image {
+    max-width: 28.8rem;
+}
+
+.cart-content {
+    gap: 4.8rem;
+}
+
+.cart-details {
+    max-width: 52rem;
+}
+
+.cart-details {
+    background: var(--auth-background);
+    border-radius: 5px;
+}
+
+.cart-title-details {
+    padding-bottom: 1.6rem;
+    border-bottom: 1px solid var(--grey);
+}
+
+.cart-item {
+    margin: 1.6rem 0;
+    font-size: large;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-item:nth-last-child(1) {
+    padding: 1.6rem 0;
+    border-block: 1px solid var(--grey);
+}
