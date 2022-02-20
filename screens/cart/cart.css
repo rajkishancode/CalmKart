@@ -8,7 +8,7 @@
 }
 
 .cart .card-image {
-    width: 28.8rem;
+    max-width: 28.8rem;
 }
 
 .cart-content {
