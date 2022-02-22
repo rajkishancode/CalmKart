@@ -4,8 +4,17 @@
 
 
 
+
 .auth-container {
     width: 90%;
     max-width: 1920px;
     margin: 0 auto;
 }
+
+.badge-icon{
+    font-size: 2.4rem;
+  }
+  
+  .search-bar{
+    width:25%;
+  }

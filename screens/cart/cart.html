@@ -15,44 +15,37 @@
 
             <div class="nav-section">
                 <div class="nav-logo nav-section-items">
-                    <a href="https://calmkart.netlify.app/index.html" class="navigation-logo"><img src="/assets/calmkart_logo.webp" alt="calmkart logo" /></a>
+                    <a href="/index.html" class="navigation-logo"><img src="/assets/calmkart_logo.webp" alt="calmkart logo" /></a>
                 </div>
             </div>
 
+            <label class="search-bar nav-item-width50">
+                <span class="search-btn" type="submit"><i class="fa fa-search"> </i></span>
+                <input class="search-input" type="text" placeholder="Search for more" name="search">
+            </label>
+
             <div class="nav-section">
-                <label class="search-bar nav-item-width50">
-                    <span class="search-btn" type="submit"><i class="fa fa-search"> </i></span>
-                    <input class="search-input" type="text" placeholder="Search for more" name="search">
-                </label>
+
                 <ul class="nav-icons list-style-none nav-item-width50">
                     <li class="list-inline-item">
-                        <a href="https://calmkart.netlify.app/screens/authentication/login/login.html" class="nav-icon-link link-no-style">
-                            <span class="nav-icon">
-                                <i class="fas fa-user"></i>
-                            </span>
-                            <span class="nav-icon-text">
-                                Profile
-                            </span>
+                        
+                            <a href="/index.html" class="btn btn-solid-primary m-2"> Logout</a> 
+                        
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="/screens/wishlist/wishlist.html" class="nav-icon-link link-no-style">
+                            <div class="badge-wrap">
+                                <i class="far fa-heart  badge-icon  "></i>
+                                <span class="badge-status badge-number">3</span>
+                            </div>
                         </a>
                     </li>
                     <li class="list-inline-item">
-                        <a href="https://calmkart.netlify.app/screens/wishlist/wishlist.html" class="nav-icon-link link-no-style">
-                            <span class="nav-icon">
-                                <i class="fas fa-heart"></i>
-                            </span>
-                            <span class="nav-icon-text">
-                                Wishlist
-                            </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="https://calmkart.netlify.app/screens/cart/cart.html" class="nav-icon-link link-no-style">
-                            <span class="nav-icon">
-                                <i class="fas fa-shopping-cart"></i>
-                            </span>
-                            <span class="nav-icon-text">
-                                Cart
-                            </span>
+                        <a href="/screens/cart/cart.html" class="nav-icon-link link-no-style">
+                            <div class="badge-wrap">
+                                <i class="fa fa-cart-shopping badge-icon "></i>
+                                <span class="badge-status badge-number">3</span>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -88,10 +81,10 @@
                             a set of outer clothes made of the same fabric and designed to be worn together, typically
                             consisting of a jacket and trousers.
                         </div>
-                        <button class="btn btn-solid-primary my-2 ">
+                        <button class="cart-btn btn-solid-primary my-2 ">
                             Remove from cart
                         </button>
-                        <button class="btn btn-outline-primary my-2">
+                        <button class="cart-btn btn-outline-primary my-2">
                             Add to wishlist
                         </button>
                     </div>

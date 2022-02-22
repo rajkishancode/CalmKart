@@ -1,12 +1,15 @@
 @import url(/css/global.css);
 
-
 body {
   display: grid;
   grid-template-areas:
     "header  header "
     "filters products";
   grid-template-columns: 28.8rem 1fr;
+}
+
+header {
+  grid-area: header;
 }
 
 .filters {
@@ -42,3 +45,4 @@ body {
   color: red;
 
 }
+
